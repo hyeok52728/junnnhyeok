@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>인원 체크 프로그램</title>
+    <style>
+        body {
+            top: auto;
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin: 20px;
+        }
+        .button {
+            width: 150px;
+            height: 50px;
+            margin: 10px;
+            background-color: rgba(255, 255, 255, 0.397);
+            color: rgb(0, 0, 0);
+            border-color: rgba(255, 255, 255, 0.397) ;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        .green {
+            background-color: rgb(0, 0, 0);
+        }
+    </style>
+</head>
+<body>
+    <script>
+        function toggleColor(button) {
+            if (button.classList.contains('green')) {
+                button.classList.remove('green');
+                button.style.backgroundColor = 'white';
+            } else {
+                button.classList.add('green');
+                button.style.backgroundColor = 'green';
+            }
+        }
+    </script>
+
+    <div>
+        <button class="button" onclick="toggleColor(this)">	송민수	</button>
+        <button class="button" onclick="toggleColor(this)">	신승민	</button>
+        <button class="button" onclick="toggleColor(this)">	송치현	</button>
+        <button class="button" onclick="toggleColor(this)">	한남규	</button>
+        <button class="button" onclick="toggleColor(this)">	정주영	</button>
+        <button class="button" onclick="toggleColor(this)">	강다연	</button>
+        <button class="button" onclick="toggleColor(this)">	곽민관	</button>
+        <button class="button" onclick="toggleColor(this)">	김관빈	</button>
+        <button class="button" onclick="toggleColor(this)">	김민서	</button>
+        <button class="button" onclick="toggleColor(this)">	김민체	</button>
+        <button class="button" onclick="toggleColor(this)">	김영운	</button>
+        <button class="button" onclick="toggleColor(this)">	김예은	</button>
+        <button class="button" onclick="toggleColor(this)">	김용현	</button>
+        <button class="button" onclick="toggleColor(this)">	김인제	</button>
+        <button class="button" onclick="toggleColor(this)">	김진택	</button>
+        <button class="button" onclick="toggleColor(this)">	김창성	</button>
+        <button class="button" onclick="toggleColor(this)">	김하민	</button>
+        <button class="button" onclick="toggleColor(this)">	민지영	</button>
+        <button class="button" onclick="toggleColor(this)">	박서빈	</button>
+        <button class="button" onclick="toggleColor(this)">	박지호	</button>
+        <button class="button" onclick="toggleColor(this)">	서보현	</button>
+        <button class="button" onclick="toggleColor(this)">	서수아	</button>
+        <button class="button" onclick="toggleColor(this)">	서정대	</button>
+        <button class="button" onclick="toggleColor(this)">	서지한	</button>
+        <button class="button" onclick="toggleColor(this)">	손태윤	</button>
+        <button class="button" onclick="toggleColor(this)">	손하진	</button>
+        <button class="button" onclick="toggleColor(this)">	송영록	</button>
+        <button class="button" onclick="toggleColor(this)">	송준규	</button>
+        <button class="button" onclick="toggleColor(this)">	신연우	</button>
+        <button class="button" onclick="toggleColor(this)">	신재민	</button>
+        <button class="button" onclick="toggleColor(this)">	심현수	</button>
+        <button class="button" onclick="toggleColor(this)">	오상후	</button>
+        <button class="button" onclick="toggleColor(this)">	옥다윤	</button>
+        <button class="button" onclick="toggleColor(this)">	윤혜림	</button>
+        <button class="button" onclick="toggleColor(this)">	이동윤	</button>
+        <button class="button" onclick="toggleColor(this)">	이서진	</button>
+        <button class="button" onclick="toggleColor(this)">	이성민	</button>
+        <button class="button" onclick="toggleColor(this)">	이  준	</button>
+        <button class="button" onclick="toggleColor(this)">	이준하	</button>
+        <button class="button" onclick="toggleColor(this)">	이준혁	</button>
+        <button class="button" onclick="toggleColor(this)">	이지호	</button>
+        <button class="button" onclick="toggleColor(this)">	장수웅	</button>
+        <button class="button" onclick="toggleColor(this)">	정다원	</button>
+        <button class="button" onclick="toggleColor(this)">	정유진	</button>
+        <button class="button" onclick="toggleColor(this)">	조병현	</button>
+        <button class="button" onclick="toggleColor(this)">	조정빈	</button>
+        <button class="button" onclick="toggleColor(this)">	최수한	</button>
+        <button class="button" onclick="toggleColor(this)">	함  산	</button>
+        <button class="button" onclick="toggleColor(this)">	황자운	</button>
+        <button class="button" onclick="toggleColor(this)">	황재인	</button>
+
+
+    </div>
+</body>
+</html>
